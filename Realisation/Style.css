@@ -5,76 +5,199 @@
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
+    height: 2000px;
     overflow-x: hidden;
     background-color: white;
 }
-.navbar-contactus{
-    background-color: #D57276;
-    height: 150px;
+
+.navbar-contactus {  
     width: 100%;
+    height: 150px;
     position: sticky;
     top: 0;
-
-}
-.contactus-container{
-    text-align:center ;
-    height: 250px;
-    width: 100%;
+    z-index: 1;
     background-color: #D57276;
+  
 }
-.contactus-container h1{
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 2rem;
-    padding-left: 12px;
-    opacity: 0.5;
-}
-ul li {
-    list-style: none;
-    display: inline;
-    margin-left: 60px;
-    font-size: 20px;
-    font-family: 'Zen Kurenaido', sans-serif;
-    position: relative;
-    left: 70px;
 
-}
-a{
-    text-decoration:none ;
-    list-style: none;
 
-}
-#logo{
-    position: relative;
-    left: 20px;
-    top: 24px;
-}
-#free_trial{
-  float: right;
-  width: 140px;
-  height: 40px;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  border-style: none;
-  cursor: pointer;
-}
-#log_in{
-    float: right;
-  width: 140px;
-  height: 40px;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  border-style: none;
-  cursor: pointer;
-}
-button{
-    margin-top: 0px;
+.contactus-container {
+
+    text-align: center;
+    height: 266px;
+    width: 100%;   
+    background-color: #D57276;
     
 
 }
+
+.contactus-container h1  {
+
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 30px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+    
+}
+
+.contactus-container p {
+
+    font-family: var(--universal-font) ;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    padding-left: 10px;
+
+}
+ul, li {
+   
+    display: inline;
+   
+    color: #fff;
+    opacity: 0.9;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 15px;
+    position: relative;
+    left: 80px; 
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+  
+    color: rgb(36, 141, 160);
+
+}
+
+#logo {
+
+   position: relative;
+   left: 20px;
+   top:  23px;
+
+
+   
+}
+#free_trial{
+   
+    float: right;
+    width: 180px;
+    height: 47px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+    background-color: #8aa7b6;
+    color: #fff;
+    position: relative;
+    right: 200px;
+    bottom: 15px;
+}
+
+#free_trial:hover {
+
+    background-color:  rgb(167, 193, 201);
+}
+
+#log_in {
+
+    float: right;
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 47px;
+    bottom: 16px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-style: none;
+    background-color: #D57276;
+    color: rgb(255, 255, 255);
+    font-family: 'Zen Kurenaido', sans-serif;
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+
+
+
+}
+    
+
+#log_in:hover{
+
+    background-color: #000;
+
+}
+.form-container {
+    margin-top: 140px;
+    margin-left: 40px;
+    width: 50%;
+}
+input {
+    display: block;
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    
+}
+textarea{
+    
+    width: 400px;
+    resize: none;
+    margin-top: 30px;
+    height: 100px;
+}
+h2{
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: rgb(61, 158, 196);
+}
+#p2{
+    margin: 10px;
+}
+#submit{
+   
+   top: 110%;
+   left: 50%;
+   width: 100px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #D57276;
+  background-color: #D57276;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  
+}
+label{
+
+    position: absolute;
+    
+}
+#section2{
+    width: 200px;
+    margin-left: 1000px;
+    position:absolute;
+    left:100px;
+    top:550px;
+    
+}
+
+
+ 
+   
