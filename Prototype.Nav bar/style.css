@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("background-with-sky-clouds-shape_24972-1095.jpg");
+    background-position: center;
+   background-size: cover;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background:rgb(202, 118, 35);
+    text-align:center ;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.active , .menu-bar ul li :hover{
+
+    background: #bbab7f;
+    border-radius: 3px;
+}
+#free{
+    border: 1px solid black;
+    background-color: black;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;     
+}
+#log-in{
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;  
+
+}
+.menu-bar{
+    position: sticky;
+    top: 0px;
+}
