@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 2000px;
+    height: 100px;
     overflow-x: hidden;
     background-color: white;
 }
@@ -204,9 +204,58 @@ label{
 
 }
 
+#FAC{
+    font-size: 50PX;
+    position: relative;
+    left: 55%;
+    bottom: 410px;
+    color:rgb(61, 158, 196) ;
 
+}
+#part1{
+    position: relative;
+    left: 60%;
+    bottom: 450px;
 
+}
+#twitter{
+    font-size: 50PX;
+    position: relative;
+    left: 55%;
+    bottom: 410px;  
+    color:rgb(73, 146, 175) ;
 
+}
+#part2{
+    position: relative;
+    left: 60%;
+    bottom: 450px;
+}
+#linkedin{
+    font-size: 50PX;
+    position: relative;
+    left: 55%;
+    bottom: 410px; 
+    color:rgb(61, 158, 196) ;
+}
+#part3{
+    position: relative;
+    left: 60%;
+    bottom: 450px;
+}
+span{
+    color:rgb(61, 158, 196) ;
+
+}
+footer{
+    box-sizing:border-box ;
+    clear: both;
+    position: relative;
+    height: 300px;
+    margin-top: -200px;
+    background-color: rgb(26, 25, 25);
+
+}
 
 
 
