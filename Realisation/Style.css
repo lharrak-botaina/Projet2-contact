@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-
+/* menu bar*/
 * {
     margin: 0;
     padding: 0;
@@ -99,14 +99,14 @@ button {
     background-color: #c59799;
     cursor: pointer;
 }
-
+/* end of menu bar */
 main {
     background-color: white;
 }
 
 
-.contact {
-    background-color: #D57276;
+.contact {                                     /* section on left  */
+    background-color: #D57276;  
     padding-top: 100px;
     padding-bottom: 72px;
     text-align: center;
@@ -189,7 +189,8 @@ textarea::placeholder {
 .form-submit:hover {
     cursor: pointer;
     background-color: rgb(61, 158, 196);
-}
+}                                                    /*  end of section on left  */
+
 
 .social-media {
     background-color: white;
@@ -231,7 +232,7 @@ textarea::placeholder {
     color: #a4b4bd;
     cursor: pointer;
 }
-
+                                                    /*  end of section on right   */
 footer {
     background-color: rgb(37, 35, 35);
     overflow: auto;
